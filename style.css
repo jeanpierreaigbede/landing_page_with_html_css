@@ -1,0 +1,159 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.main {
+    height: 500px;
+    width: 100%;
+    background-image: url("flower.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logo{
+    color: deeppink;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu ul{
+
+    display: flex;
+    justify-items: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.menu ul li a:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+
+
+.search{
+    margin-top: 5px;
+}
+
+.search input{
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+.search button{
+    padding: 3px;
+    background-color: deeppink;
+    color: white;
+    border-color: deeppink;
+    border-radius: 5px;
+}
+
+.search button:hover{
+    padding: 3px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+}
+
+
+
+.landing-block{
+    margin-top: 50px;
+    display: flex;
+    padding-left:60px ;
+    padding-right: 60px;
+    color: white;
+    justify-content: space-between;
+    
+    
+}
+
+.landing-block{
+    width: 100%;
+    padding: 20px;
+}
+
+.left-block{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.left-block h2 {
+font-size: 30px;
+font-weight: bold;
+}
+
+
+.left-block h5 {
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+
+
+.left-block button{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-color: blue;
+}
+
+.left-block button:hover{
+    padding: 10px;
+    background-color:deeppink;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-color: deeppink;
+
+}
+
+.rigth-block{
+    width: 40%;
+}
+
+
+.rigth-block img{
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-right: 50px;
+
+}
+
+
+
+
